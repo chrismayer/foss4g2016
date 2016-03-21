@@ -1,6 +1,6 @@
 #GeoExt3 — Universal WebGIS applications with OpenLayers 3 und ExtJS 6
 
-The talk introduces GeoExt 3 [1] including a short introduction to the parent libraries ExtJS [2] und OpenLayers [3]. At the beginning the thematic focus is on the main features of the libraries / frameworks before it is shifted to the development of 'universal' WebGIS applications. 'Universal' in this context means a GeoExt 3 based application, which runs on classic desktop browsers as well as on mobile devices (tablets and phones) with an optimized usability.
+The talk introduces GeoExt 3 [1] including a short introduction to the parent libraries ExtJS [2] and OpenLayers [3]. At the beginning the thematic focus is on the main features of the libraries / frameworks before it is shifted to the development of 'universal' WebGIS applications. 'Universal' in this context means a GeoExt 3 based application, which runs on classic desktop browsers as well as on mobile devices (tablets and phones) with an optimized usability.
 
 Especially with GeoExt 3 and its new foundation framework ExtJS 6 the development of such 'universal' applications is easily possible by one code base without duplicating code. OpenLayers 3, the other base library, is device independent from the beginning.
 
