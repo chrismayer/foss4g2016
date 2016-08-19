@@ -49,7 +49,7 @@
             <small>Christian Mayer &amp; Marc Jansen</small>
           </p>
           <p>
-            <span style="font-size: small;">FOSS4G 2016, Bonn, Germany, 25.08.2016</small>
+            <span style="font-size: small;">FOSS4G 2016, Bonn, Germany, 2016-08-25</small>
           </p>
         </section>
 
@@ -228,7 +228,7 @@
           <blockquote>
             A high-performance, feature-packed library for all your mapping
             needs.
-            <footer>&mdash; <cite><a href="http://openlayers.org/">openlayers.org, 27. Juni 2016</a></cite></footer>
+            <footer>&mdash; <cite><a href="http://openlayers.org/">openlayers.org, 2016-06-27</a></cite></footer>
           </blockquote>
           <ul class="fragment fade-in">
             <li>Complete rewrite after v2.x</li>
@@ -312,7 +312,7 @@
             to be creative</span> in order to produce logic that can span
             toolkits.
             <footer>
-              &mdash; <cite><a href="https://docs.sencha.com/extjs/6.0/application_architecture/developing_for_multiple_screens_and_environments.html">sencha.com, June, 27th 2016</a></cite>
+              &mdash; <cite><a href="https://docs.sencha.com/extjs/6.0/application_architecture/developing_for_multiple_screens_and_environments.html">sencha.com, 2016-06-27</a></cite>
               <br />Own emphasis
             </footer>
           </blockquote>
@@ -374,15 +374,16 @@ Ext.beforeLoad = function (tags) {
         <section>
           <h2>What does this mean for GeoExt?</h2>
           <ul>
-            <li>Correct derivation in own classes</li>
+            <li>Correct inheritance of own classes</li>
             <li>Example: <code>GeoExt.component.Map</code></li>
-            <li>Reutilization: all expect from <code>GeoExt.grid.column.Symbolizer</code></li>
+            <li>Reutilization: all except <code>GeoExt.grid.column.Symbolizer</code></li>
             <li>Components, data package (models and stores), utilities &amp; mixins</li>
             <li>Tree structures via models</li>
           </ul>
         </section>
 
         <section>
+          <h4>(currently)</h4>
           <h2>Not usable as package</h2>
           <pre><code data-trim>
 "classpath": [
@@ -429,7 +430,7 @@ Ext.beforeLoad = function (tags) {
           <h2>Conclusion</h2>
           <ul>
             <li>Huge potential</li>
-            <li>Sophisticate detail development (framework / app)</li>
+            <li>Sophisticated detail development (framework / app)</li>
             <li>Some unexpected pitfalls</li>
             <li>Attractive outcome</li>
             <li>Currently some improvements are financed (BfS)<br /></li>
@@ -480,12 +481,17 @@ Ext.beforeLoad = function (tags) {
           <p id="license">
             The slides of this talk are licensed under <a
             href="http://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA</a>.
+            <br />
+            <small>They are based on this
+            <a href="https://rawgit.com/marcjansen/fossgis2016/master/geoext3-talk/index.html">German
+            GeoExt3 talk</a> of the same authors.</small>
           </p>
           <p>
             <a href="https://rawgit.com/chrismayer/foss4g2016/master/geoext3-talk/index.html#/start">Slides</a>,
-            <a href="https://rawgit.com/marcjansen/fossgis2016/master/geoext3-talk/GeoExt3-Universal-WebGIS-applications-with-OpenLayers-3-and-ExtJS-6.pdf">PDF version</a>,
+            <a href="https://rawgit.com/chrismayer/foss4g2016/master/geoext3-talk/GeoExt3-Universal-WebGIS-applications-with-OpenLayers-3-and-ExtJS-6.pdf">PDF version</a>,
             <a href="https://github.com/chrismayer/foss4g2016">git repository</a>
           </p>
+
         </section>
 
       </div>
